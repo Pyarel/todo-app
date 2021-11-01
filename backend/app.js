@@ -6,7 +6,7 @@ const mongoose= require('mongoose');
 const postRoutes=require('./routes/posts');
 const userRoutes=require('./routes/user');
 
-mongoose.connect("mongodb+srv://pyarel:5yNloMguBWBzhX89@cluster0.yw5pr.mongodb.net/node-angular")
+mongoose.connect("mongodb+srv://<user name>:<password>@<cluster name>.yw5pr.mongodb.net/node-angular")
 .then(() => {
     console.log("Database Connected");
 })
