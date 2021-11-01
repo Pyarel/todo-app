@@ -1,0 +1,18 @@
+mat-accordion{
+    width: 72%;
+    margin: auto;
+    display: block;
+    margin-top: 1rem;
+}
+mat-spinner{
+    margin: auto;
+}
+mat-paginator{
+    margin-top: 1rem;
+}
+.image-panel{
+    width: 100%;
+}
+.image-panel img{
+    width:100%;
+}

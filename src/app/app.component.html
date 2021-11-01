@@ -1,0 +1,18 @@
+<app-header></app-header>
+ <main>
+    <router-outlet></router-outlet>
+</main>
+
+<!--
+    <main>
+    <app-post-create ></app-post-create>
+    <app-post-list ></app-post-list>
+</main>
+-->
+<!--EVENT EMITTER -subscribing to the Event Emitter Instance
+   -- Access the event object with the $event argument passed to the output event handler:--
+<main>
+    <app-post-create (postEmitter)="onPostEmitted($event)"></app-post-create>
+    <app-post-list [posts]="postStored"></app-post-list>
+</main>
+-->

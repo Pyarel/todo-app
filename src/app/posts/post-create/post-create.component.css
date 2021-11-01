@@ -1,0 +1,24 @@
+.example-full-width{
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+
+button[type="submit"]{
+    margin:auto;
+    display: block;
+    margin-top: 0.5rem;
+}
+mat-spinner{
+    margin: auto;
+}
+input[type="file"]{
+    visibility: hidden;
+}
+.image-preview{
+    height: 5rem;
+    margin: 1rem 0;
+}
+.image-preview img{
+    height: 100%;
+}
