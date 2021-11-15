@@ -9,7 +9,7 @@ const userRoutes=require('./routes/user');
 <<<<<<< HEAD
 mongoose.connect("mongodb+srv://<user name>:<password>@<cluster name>.yw5pr.mongodb.net/node-angular")
 =======
-mongoose.connect("mongodb+srv://pyarel:"+process.env.MONGO_ATLAS_PW+"@cluster0.yw5pr.mongodb.net/node-angular")
+mongoose.connect("mongodb+srv://<user name>:"+process.env.MONGO_ATLAS_PW+"@cluster0.yw5pr.mongodb.net/node-angular")
 >>>>>>> 1be6085 (Final Commit)
 .then(() => {
     console.log("Database Connected");
