@@ -1,5 +1,14 @@
 # Postitapp
 
+This repository is created as a part **Angular & NodeJS - The MEAN Stack Guide [2022 Edition]** by maximilian schwarzmüller.
+
+It contains,
+* Connecting Angular application with Node backend.
+* Using Express JS as a Node framework.
+* Implementing Error Handling for the entire application.
+* Using MongoDB with Mongoose to interact with data on the backend.
+* Optimizing the application with Lazy loading and other techniques to improve the performance and readability.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.0.
 
 ## Development server
