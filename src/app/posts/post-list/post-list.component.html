@@ -7,14 +7,15 @@
         </mat-panel-title>
       </mat-expansion-panel-header>
       <div class="image-panel">
+        <!--Bind the source to image path-->
         <img [src]="post.imagePath" [alt]="post.title">
       </div>
       <p>{{ post.content }}</p>
-      <mat-action-row>
+      <mat-action-row *ngIf="userIsAuthenticated && userId === post.creator">
         <a mat-button [routerLink]="['/edit',post.id]" color="primary">Edit</a>
         <button mat-button color="warn" (click)="onDelete(post.id)">Delete</button>
       </mat-action-row>
     </mat-expansion-panel>
 </mat-accordion>
 <mat-paginator [length]="totalPosts" [pageSize]="postsPerPage" [pageSizeOptions]="pageSizeOptions"  (page)="onChangedPage($event)" *ngIf="posts.length > 0 "></mat-paginator>
-<p *ngIf="posts.length<=0 && !isLoading">No Posts Added Yet!</p>
+<p *ngIf="posts.length<=0 && !isLoading" style="text-align: center;">No Posts Added Yet!</p>
