@@ -1,8 +1,6 @@
 # Postitapp
 
-This repository is created as a part **Angular & NodeJS - The MEAN Stack Guide [2022 Edition]** by maximilian schwarzmüller.
-
-It contains,
+This project contains,
 * Connecting Angular application with Node backend.
 * Using Express JS as a Node framework.
 * Implementing Error Handling for the entire application.
