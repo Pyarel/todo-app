@@ -1,4 +1,4 @@
-# Postitapp
+# Post It! Application
 
 "Post It" is a web application where users can sign up and use thier account to create to do list in order to keep track of thier tasks for balance and simplicity. It allows the users to view,modify and delete tasks created by them. All the data is stored in the mongoDB cloud database securely and is available each time they login to the application. 
 
