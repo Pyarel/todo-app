@@ -1,4 +1,4 @@
-# Post It! Application (MEAN Stack)
+# To Do List Application (MEAN Stack)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.0.
 
