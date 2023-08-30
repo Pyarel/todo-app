@@ -1,10 +1,4 @@
-# Post It! Application
-
-* Connecting Angular application with Node backend.
-* Using Express JS as a Node framework.
-* Implementing Error Handling for the entire application.
-* Using MongoDB with Mongoose to interact with data on the backend.
-* Optimizing the application with Lazy loading and other techniques to improve the performance and readability.
+# Post It! Application (MEAN Stack)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.0.
 
